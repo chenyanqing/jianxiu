@@ -219,3 +219,8 @@ http://pan.baidu.com/s/1hsbl43M
 
 <h1>四、sql语句</h1>
 http://pan.baidu.com/s/1jHJ66VG
+
+<h1>五、查询语句</h1>
+SELECT * FROM jianxiu.baoyangjilu,jianxiu.shebei where shebei.设备ID=1 and baoyangjilu.设备ID=shebei.设备ID;
+
+SELECT * FROM jianxiu.zhouqi,jianxiu.shebei where  exists ( select 保养期 from jianxiu.zhouqi,jianxiu.shebei where jianxiu.shebei.保养周期=zhouqi.周期ID) - datediff( now(), (select 最近一次保养时间 from 设备 ) ) < 100 and shebei.保养周期=zhouqi.周期ID;
