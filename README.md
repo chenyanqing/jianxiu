@@ -1,6 +1,6 @@
 # jianxiu
 管理信息系统作业
-一、sql语句
+<h1>一、sql语句</h1>
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -212,7 +212,7 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
-二、er图链接
+<h1>二、er图链接</h1>
 http://pan.baidu.com/s/1skQdNJJ
-三、Axure原型链接
+<h1>三、Axure原型链接</h1>
 http://pan.baidu.com/s/1hsbl43M
